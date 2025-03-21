@@ -2,7 +2,7 @@
 //
 // SPDX-License-Identifier: Apache-2.0
 
-module github.com/hyperledger/fabric-sdk-go
+module github.com/qinleiyong/fabric-sdk-go
 
 require (
 	github.com/Hyperledger-TWGC/tjfoc-gm v0.0.0-20210222084201-e65875425ad3
