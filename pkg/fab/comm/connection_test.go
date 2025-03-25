@@ -11,9 +11,9 @@ import (
 	"testing"
 	"time"
 
-	eventmocks "github.com/hyperledger/fabric-sdk-go/pkg/fab/events/mocks"
-	fabmocks "github.com/hyperledger/fabric-sdk-go/pkg/fab/mocks"
-	mspmocks "github.com/hyperledger/fabric-sdk-go/pkg/msp/test/mockmsp"
+	eventmocks "github.com/qinleiyong/fabric-sdk-go/pkg/fab/events/mocks"
+	fabmocks "github.com/qinleiyong/fabric-sdk-go/pkg/fab/mocks"
+	mspmocks "github.com/qinleiyong/fabric-sdk-go/pkg/msp/test/mockmsp"
 	"github.com/stretchr/testify/require"
 )
 

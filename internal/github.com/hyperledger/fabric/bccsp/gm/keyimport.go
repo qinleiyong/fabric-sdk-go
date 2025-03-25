@@ -24,8 +24,8 @@ import (
 	"reflect"
 
 	x509GM "github.com/Hyperledger-TWGC/tjfoc-gm/x509"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/utils"
+	"github.com/qinleiyong/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
+	"github.com/qinleiyong/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/utils"
 )
 
 //实现内部的 KeyImporter 接口

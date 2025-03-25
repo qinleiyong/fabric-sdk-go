@@ -16,7 +16,7 @@ import (
 	"encoding/hex"
 	"encoding/pem"
 
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkinternal/pkg/util"
+	"github.com/qinleiyong/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkinternal/pkg/util"
 	"github.com/pkg/errors"
 	"github.com/tw-bc-group/net-go-gm/http"
 )

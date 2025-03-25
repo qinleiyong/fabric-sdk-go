@@ -10,11 +10,11 @@ import (
 	reqContext "context"
 	"testing"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/retry"
-	"github.com/hyperledger/fabric-sdk-go/test/metadata"
+	"github.com/qinleiyong/fabric-sdk-go/pkg/common/errors/retry"
+	"github.com/qinleiyong/fabric-sdk-go/test/metadata"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/resource"
+	"github.com/qinleiyong/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/qinleiyong/fabric-sdk-go/pkg/fab/resource"
 	"github.com/stretchr/testify/require"
 )
 

@@ -10,7 +10,7 @@ import (
 	"crypto/tls"
 	"crypto/x509"
 	x509GM "github.com/Hyperledger-TWGC/tjfoc-gm/x509"
-	commgmtls "github.com/hyperledger/fabric-sdk-go/pkg/core/config/comm/gmtls"
+	commgmtls "github.com/qinleiyong/fabric-sdk-go/pkg/core/config/comm/gmtls"
 	"reflect"
 	"regexp"
 	"strconv"
@@ -18,18 +18,18 @@ import (
 	"time"
 
 	"github.com/Hyperledger-TWGC/tjfoc-gm/gmtls"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/multi"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/retry"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/status"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/logging"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	commtls "github.com/hyperledger/fabric-sdk-go/pkg/core/config/comm/tls"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config/cryptoutil"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config/endpoint"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config/lookup"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/cryptosuite"
-	"github.com/hyperledger/fabric-sdk-go/pkg/util/pathvar"
+	"github.com/qinleiyong/fabric-sdk-go/pkg/common/errors/multi"
+	"github.com/qinleiyong/fabric-sdk-go/pkg/common/errors/retry"
+	"github.com/qinleiyong/fabric-sdk-go/pkg/common/errors/status"
+	"github.com/qinleiyong/fabric-sdk-go/pkg/common/logging"
+	"github.com/qinleiyong/fabric-sdk-go/pkg/common/providers/core"
+	"github.com/qinleiyong/fabric-sdk-go/pkg/common/providers/fab"
+	commtls "github.com/qinleiyong/fabric-sdk-go/pkg/core/config/comm/tls"
+	"github.com/qinleiyong/fabric-sdk-go/pkg/core/config/cryptoutil"
+	"github.com/qinleiyong/fabric-sdk-go/pkg/core/config/endpoint"
+	"github.com/qinleiyong/fabric-sdk-go/pkg/core/config/lookup"
+	"github.com/qinleiyong/fabric-sdk-go/pkg/core/cryptosuite"
+	"github.com/qinleiyong/fabric-sdk-go/pkg/util/pathvar"
 	"github.com/mitchellh/mapstructure"
 	"github.com/pkg/errors"
 	grpcCodes "google.golang.org/grpc/codes"
@@ -1912,7 +1912,7 @@ func detectDeprecatedNetworkConfig(endpointConfig *EndpointConfig) {
 	for _, v := range endpointConfig.networkConfig.Channels {
 		if len(v.Orderers) > 0 {
 			logger.Warn("Getting orderers from endpoint config channels.orderer is deprecated, use entity matchers to override orderer configuration")
-			logger.Warn("visit https://github.com/hyperledger/fabric-sdk-go/blob/master/test/fixtures/config/overrides/local_entity_matchers.yaml for samples")
+			logger.Warn("visit https://github.com/qinleiyong/fabric-sdk-go/blob/master/test/fixtures/config/overrides/local_entity_matchers.yaml for samples")
 			break
 		}
 	}

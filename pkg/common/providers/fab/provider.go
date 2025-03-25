@@ -12,12 +12,12 @@ import (
 	"github.com/Hyperledger-TWGC/tjfoc-gm/gmtls"
 	"time"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/options"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/msp"
-	commgmtls "github.com/hyperledger/fabric-sdk-go/pkg/core/config/comm/gmtls"
-	commtls "github.com/hyperledger/fabric-sdk-go/pkg/core/config/comm/tls"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk/metrics"
+	"github.com/qinleiyong/fabric-sdk-go/pkg/common/options"
+	"github.com/qinleiyong/fabric-sdk-go/pkg/common/providers/core"
+	"github.com/qinleiyong/fabric-sdk-go/pkg/common/providers/msp"
+	commgmtls "github.com/qinleiyong/fabric-sdk-go/pkg/core/config/comm/gmtls"
+	commtls "github.com/qinleiyong/fabric-sdk-go/pkg/core/config/comm/tls"
+	"github.com/qinleiyong/fabric-sdk-go/pkg/fabsdk/metrics"
 	"google.golang.org/grpc"
 )
 

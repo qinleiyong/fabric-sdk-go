@@ -9,9 +9,9 @@ package endpoint
 import (
 	"crypto/x509"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/options"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/comm"
+	"github.com/qinleiyong/fabric-sdk-go/pkg/common/options"
+	"github.com/qinleiyong/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/qinleiyong/fabric-sdk-go/pkg/fab/comm"
 )
 
 // EventEndpoint extends a Peer endpoint

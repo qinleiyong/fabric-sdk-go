@@ -28,8 +28,8 @@ import (
 	"sync"
 
 	"github.com/Hyperledger-TWGC/tjfoc-gm/sm2"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/utils"
+	"github.com/qinleiyong/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
+	"github.com/qinleiyong/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/utils"
 	x509GM "github.com/Hyperledger-TWGC/tjfoc-gm/x509"
 )
 
