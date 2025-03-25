@@ -17,7 +17,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
+	"github.com/qinleiyong/fabric-sdk-go/pkg/common/providers/core"
 
 	x509GM "github.com/Hyperledger-TWGC/tjfoc-gm/x509"
 )

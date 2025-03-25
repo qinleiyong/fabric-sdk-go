@@ -10,7 +10,7 @@ import (
 	"sync/atomic"
 
 	x509GM "github.com/Hyperledger-TWGC/tjfoc-gm/x509"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/logging"
+	"github.com/qinleiyong/fabric-sdk-go/pkg/common/logging"
 )
 
 var logger = logging.NewLogger("fabsdk/core")

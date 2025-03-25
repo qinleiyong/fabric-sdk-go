@@ -11,9 +11,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config/lookup"
-	"github.com/hyperledger/fabric-sdk-go/pkg/util/pathvar"
+	"github.com/qinleiyong/fabric-sdk-go/pkg/common/providers/core"
+	"github.com/qinleiyong/fabric-sdk-go/pkg/core/config/lookup"
+	"github.com/qinleiyong/fabric-sdk-go/pkg/util/pathvar"
 	"github.com/spf13/cast"
 )
 

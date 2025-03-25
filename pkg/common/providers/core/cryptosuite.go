@@ -25,7 +25,7 @@ package core
 
 import (
 	"crypto"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
+	"github.com/qinleiyong/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
 	"hash"
 )
 

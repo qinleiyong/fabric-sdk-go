@@ -18,7 +18,7 @@ package gm
 import (
 	"fmt"
 	"github.com/Hyperledger-TWGC/tjfoc-gm/sm2"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
+	"github.com/qinleiyong/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
 )
 
 //定义国密SM2 keygen 结构体，实现 KeyGenerator 接口
